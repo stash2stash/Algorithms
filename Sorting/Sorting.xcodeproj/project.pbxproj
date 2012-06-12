@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7270FA21BEC583B89C4C5CAA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7270FA21BEC583B89C4C5CA9 /* main.cpp */; };
+		7270FA21BEC583B89C4C5CAD /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7270FA21BEC583B89C4C5CAC /* Timer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7270FA21BEC583B89C4C5CA0 /* Sorting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sorting; sourceTree = BUILT_PRODUCTS_DIR; };
 		7270FA21BEC583B89C4C5CA9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7270FA21BEC583B89C4C5CAC /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		7270FA21BEC583B89C4C5CAE /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		7270FA21BEC583B89C4C5CA8 /* Sorting */ = {
 			isa = PBXGroup;
 			children = (
+				7270FA21BEC583B89C4C5CAE /* Timer.h */,
+				7270FA21BEC583B89C4C5CAC /* Timer.cpp */,
 				7270FA21BEC583B89C4C5CA9 /* main.cpp */,
 			);
 			path = Sorting;
@@ -110,6 +115,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7270FA21BEC583B89C4C5CAA /* main.cpp in Sources */,
+				7270FA21BEC583B89C4C5CAD /* Timer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
