@@ -19,7 +19,7 @@ class Timer
 {
 public:
 
-	void start(unsigned int r); // Start a series of r trials
+	void start(const unsigned int r); // Start a series of r trials
 	bool check(); // Returns true if the trials have been completed, else false
 	long result(); // Returns the average number of iterations per second
 

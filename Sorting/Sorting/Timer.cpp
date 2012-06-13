@@ -9,7 +9,7 @@
 #include "Timer.h"
 
 
-void Timer::start (unsigned int r)
+void Timer::start (const unsigned int r)
 {
 	reps = r;
 	count = 0;
@@ -19,7 +19,7 @@ void Timer::start (unsigned int r)
 }
 
 
-// TODO: what if it takes more than 1 second? (maybe save time/count)
+// TODO: what if it takes more than 1 second?
 bool Timer::check()
 {
 	++count;
